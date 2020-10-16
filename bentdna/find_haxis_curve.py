@@ -13,13 +13,9 @@ def copy_file(f1, f2):
 
 
 class PrepareHelix:
-    all_folder = '/home/yizaochen/codes/dna_rna/all_systems'
+    all_folder = '/Users/alayah361/Documents/Research/work/methylation/cg_13/curves'
     type_na = 'bdna+bdna'
     d_lastframe = {
-        'atat_21mer': 10000, 'g_tract_21mer': 10000, 'a_tract_21mer': 10000,
-        'yizao_model': 20000, 'pnas_16mer': 10000, 'gcgc_21mer': 10000,
-        'ctct_21mer': 10000, 'tgtg_21mer': 10000, '500mm': 10000,
-        'only_cation': 10000, 'mgcl2_150mm': 10000, 
         'me1': 10000 }
 
     def __init__(self, findhelix_folder, host, n_bp):
