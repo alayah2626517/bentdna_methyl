@@ -1,6 +1,2 @@
-jupyterlab
 pandas
 numpy
-MDAnalysis
-plotly
-sklearn
