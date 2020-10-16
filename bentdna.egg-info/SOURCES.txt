@@ -1,0 +1,16 @@
+README.md
+setup.py
+bentdna/PDB.py
+bentdna/__init__.py
+bentdna/atom.py
+bentdna/curve_pl.py
+bentdna/find_haxis_curve.py
+bentdna/fourier_animation.py
+bentdna/miscell.py
+bentdna/regression.py
+bentdna/shapefourier.py
+bentdna.egg-info/PKG-INFO
+bentdna.egg-info/SOURCES.txt
+bentdna.egg-info/dependency_links.txt
+bentdna.egg-info/requires.txt
+bentdna.egg-info/top_level.txt
