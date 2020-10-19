@@ -195,7 +195,7 @@ class CurvePlusAgent:
         return cmd1 + cmd2 + cmd3 + cmd4 + cmd5 + cmd6
 
     def __get_inp_end(self):
-        curve_folder = '/home/yizaochen/opt/curves+/standard'
+        curve_folder = '/home/alayah361/Curves/standard'
         lis = path.join(self.workfolder, self.lis_name)
         return f'file={self.pdb_in},\n  lis={lis},\n  lib={curve_folder},'
     
