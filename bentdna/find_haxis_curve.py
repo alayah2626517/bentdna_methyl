@@ -183,7 +183,7 @@ class CurvePlusAgent:
         print(f'cp {axis_pdb} {pdb_out}')
 
     def __get_exectue_curve_plus_cmd(self):
-        curve = '/home/yizaochen/opt/curves+/Cur+'
+        curve = '/home/alayah361/Curves/Cur+'
         inp_end_txt = self.__get_inp_end()
         n1, n2, n3, n4 = self.__get_four_numbers()
         cmd1 = f'{curve} <<!\n'
