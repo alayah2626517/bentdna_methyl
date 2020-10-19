@@ -13,7 +13,7 @@ def copy_file(f1, f2):
 
 
 class PrepareHelix:
-    all_folder = '/home/alayah361/methylation/me1'
+    all_folder = '/home/alayah361/methylation/'
     type_na = 'bdna+bdna'
     d_lastframe = {
         'me1': 10000 }
