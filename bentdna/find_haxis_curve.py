@@ -114,7 +114,7 @@ class FindHelixAgent:
         agent.extract_pdb_from_dcd()
 
     def curveplus_find_haxis(self):
-        lis_name = 'r+bdna'
+        lis_name = 'bdna+bdna'
         for frame_id in range(self.start_frame, self.stop_frame):
             single_pdb = path.join(self.pdb_all_folder, f'{frame_id}.pdb')
             agent = CurvePlusAgent(single_pdb, self.workfolder, self.n_bp, lis_name, frame_id, self.pdb_haxis_folder, self.pdb_h_smooth_folder)
@@ -123,7 +123,7 @@ class FindHelixAgent:
             agent.extract_haxis_to_pdb()
 
     def curveplus_find_smooth_haxis(self):
-        lis_name = 'r+bdna'
+        lis_name = 'bdna+bdna'
         for frame_id in range(self.start_frame, self.stop_frame):
             single_pdb = path.join(self.pdb_all_folder, f'{frame_id}.pdb')
             agent = CurvePlusAgent(single_pdb, self.workfolder, self.n_bp, lis_name, frame_id, self.pdb_haxis_folder, self.pdb_h_smooth_folder)
